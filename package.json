@@ -1,16 +1,17 @@
 {
-    "name": "amelie-gothier-naturopathe",
-    "type": "module",
-    "version": "1.0.0",
-    "private": true,
-    "scripts": {
-          "dev": "astro dev",
-          "build": "astro build",
-          "preview": "astro preview",
-          "astro": "astro"
-    },
-    "dependencies": {
-          "astro": "^5.7.10",
-          "resend": "^4.1.2"
-    }
+      "name": "amelie-gothier-naturopathe",
+      "type": "module",
+      "version": "1.0.0",
+      "private": true,
+      "scripts": {
+              "dev": "astro dev",
+              "build": "astro build",
+              "preview": "astro preview",
+              "astro": "astro"
+      },
+      "dependencies": {
+              "astro": "^5.7.10",
+              "@astrojs/vercel": "^8.1.4",
+              "resend": "^4.1.2"
+      }
 }
