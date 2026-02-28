@@ -1,10 +1,11 @@
-
 import { defineConfig } from 'astro/config';
+import vercel from '@astrojs/vercel';
 
 export default defineConfig({
-  output: 'server',
+    output: 'server',
+    adapter: vercel(),
     server: { port: 3000 },
-      vite: {
+    vite: {
           build: { sourcemap: false }
-            }
-            });
+    }
+});
